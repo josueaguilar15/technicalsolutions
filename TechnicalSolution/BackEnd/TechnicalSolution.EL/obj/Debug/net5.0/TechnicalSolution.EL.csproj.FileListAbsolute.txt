@@ -1,0 +1,12 @@
+D:\Josue TFS\Technical Solution\technicalsolutions\TechnicalSolution\BackEnd\TechnicalSolution.EL\bin\Debug\net5.0\TechnicalSolution.EL.deps.json
+D:\Josue TFS\Technical Solution\technicalsolutions\TechnicalSolution\BackEnd\TechnicalSolution.EL\bin\Debug\net5.0\TechnicalSolution.EL.dll
+D:\Josue TFS\Technical Solution\technicalsolutions\TechnicalSolution\BackEnd\TechnicalSolution.EL\bin\Debug\net5.0\ref\TechnicalSolution.EL.dll
+D:\Josue TFS\Technical Solution\technicalsolutions\TechnicalSolution\BackEnd\TechnicalSolution.EL\bin\Debug\net5.0\TechnicalSolution.EL.pdb
+D:\Josue TFS\Technical Solution\technicalsolutions\TechnicalSolution\BackEnd\TechnicalSolution.EL\obj\Debug\net5.0\TechnicalSolution.EL.csprojAssemblyReference.cache
+D:\Josue TFS\Technical Solution\technicalsolutions\TechnicalSolution\BackEnd\TechnicalSolution.EL\obj\Debug\net5.0\TechnicalSolution.EL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Josue TFS\Technical Solution\technicalsolutions\TechnicalSolution\BackEnd\TechnicalSolution.EL\obj\Debug\net5.0\TechnicalSolution.EL.AssemblyInfoInputs.cache
+D:\Josue TFS\Technical Solution\technicalsolutions\TechnicalSolution\BackEnd\TechnicalSolution.EL\obj\Debug\net5.0\TechnicalSolution.EL.AssemblyInfo.cs
+D:\Josue TFS\Technical Solution\technicalsolutions\TechnicalSolution\BackEnd\TechnicalSolution.EL\obj\Debug\net5.0\TechnicalSolution.EL.csproj.CoreCompileInputs.cache
+D:\Josue TFS\Technical Solution\technicalsolutions\TechnicalSolution\BackEnd\TechnicalSolution.EL\obj\Debug\net5.0\TechnicalSolution.EL.dll
+D:\Josue TFS\Technical Solution\technicalsolutions\TechnicalSolution\BackEnd\TechnicalSolution.EL\obj\Debug\net5.0\ref\TechnicalSolution.EL.dll
+D:\Josue TFS\Technical Solution\technicalsolutions\TechnicalSolution\BackEnd\TechnicalSolution.EL\obj\Debug\net5.0\TechnicalSolution.EL.pdb
