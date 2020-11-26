@@ -9,3 +9,9 @@ D:\Josue TFS\Technical Solution\technicalsolutions\TechnicalSolution\BackEnd\Tec
 D:\Josue TFS\Technical Solution\technicalsolutions\TechnicalSolution\BackEnd\TechnicalSolution.BL\obj\Debug\net5.0\TechnicalSolution.BL.dll
 D:\Josue TFS\Technical Solution\technicalsolutions\TechnicalSolution\BackEnd\TechnicalSolution.BL\obj\Debug\net5.0\ref\TechnicalSolution.BL.dll
 D:\Josue TFS\Technical Solution\technicalsolutions\TechnicalSolution\BackEnd\TechnicalSolution.BL\obj\Debug\net5.0\TechnicalSolution.BL.pdb
+D:\Josue TFS\Technical Solution\technicalsolutions\TechnicalSolution\BackEnd\TechnicalSolution.BL\bin\Debug\net5.0\TechnicalSolution.DAL.dll
+D:\Josue TFS\Technical Solution\technicalsolutions\TechnicalSolution\BackEnd\TechnicalSolution.BL\bin\Debug\net5.0\TechnicalSolution.EL.dll
+D:\Josue TFS\Technical Solution\technicalsolutions\TechnicalSolution\BackEnd\TechnicalSolution.BL\bin\Debug\net5.0\TechnicalSolution.DAL.pdb
+D:\Josue TFS\Technical Solution\technicalsolutions\TechnicalSolution\BackEnd\TechnicalSolution.BL\bin\Debug\net5.0\TechnicalSolution.EL.pdb
+D:\Josue TFS\Technical Solution\technicalsolutions\TechnicalSolution\BackEnd\TechnicalSolution.BL\obj\Debug\net5.0\TechnicalSolution.BL.csprojAssemblyReference.cache
+D:\Josue TFS\Technical Solution\technicalsolutions\TechnicalSolution\BackEnd\TechnicalSolution.BL\obj\Debug\net5.0\TechnicalSolution.BL.csproj.CopyComplete

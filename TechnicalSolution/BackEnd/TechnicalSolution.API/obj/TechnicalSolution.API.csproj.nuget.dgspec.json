@@ -31,7 +31,14 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\Josue TFS\\Technical Solution\\technicalsolutions\\TechnicalSolution\\BackEnd\\TechnicalSolution.BL\\TechnicalSolution.BL.csproj": {
+                "projectPath": "D:\\Josue TFS\\Technical Solution\\technicalsolutions\\TechnicalSolution\\BackEnd\\TechnicalSolution.BL\\TechnicalSolution.BL.csproj"
+              },
+              "D:\\Josue TFS\\Technical Solution\\technicalsolutions\\TechnicalSolution\\BackEnd\\TechnicalSolution.EL\\TechnicalSolution.EL.csproj": {
+                "projectPath": "D:\\Josue TFS\\Technical Solution\\technicalsolutions\\TechnicalSolution\\BackEnd\\TechnicalSolution.EL\\TechnicalSolution.EL.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -58,9 +65,289 @@
                 "NU1605"
               ]
             },
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Josue TFS\\Technical Solution\\technicalsolutions\\TechnicalSolution\\BackEnd\\TechnicalSolution.BL\\TechnicalSolution.BL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Josue TFS\\Technical Solution\\technicalsolutions\\TechnicalSolution\\BackEnd\\TechnicalSolution.BL\\TechnicalSolution.BL.csproj",
+        "projectName": "TechnicalSolution.BL",
+        "projectPath": "D:\\Josue TFS\\Technical Solution\\technicalsolutions\\TechnicalSolution\\BackEnd\\TechnicalSolution.BL\\TechnicalSolution.BL.csproj",
+        "packagesPath": "C:\\Users\\Josue Levi Aguilar\\.nuget\\packages\\",
+        "outputPath": "D:\\Josue TFS\\Technical Solution\\technicalsolutions\\TechnicalSolution\\BackEnd\\TechnicalSolution.BL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Josue Levi Aguilar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Josue TFS\\Technical Solution\\technicalsolutions\\TechnicalSolution\\BackEnd\\TechnicalSolution.DAL\\TechnicalSolution.DAL.csproj": {
+                "projectPath": "D:\\Josue TFS\\Technical Solution\\technicalsolutions\\TechnicalSolution\\BackEnd\\TechnicalSolution.DAL\\TechnicalSolution.DAL.csproj"
+              },
+              "D:\\Josue TFS\\Technical Solution\\technicalsolutions\\TechnicalSolution\\BackEnd\\TechnicalSolution.EL\\TechnicalSolution.EL.csproj": {
+                "projectPath": "D:\\Josue TFS\\Technical Solution\\technicalsolutions\\TechnicalSolution\\BackEnd\\TechnicalSolution.EL\\TechnicalSolution.EL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Josue TFS\\Technical Solution\\technicalsolutions\\TechnicalSolution\\BackEnd\\TechnicalSolution.DAL\\TechnicalSolution.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Josue TFS\\Technical Solution\\technicalsolutions\\TechnicalSolution\\BackEnd\\TechnicalSolution.DAL\\TechnicalSolution.DAL.csproj",
+        "projectName": "TechnicalSolution.DAL",
+        "projectPath": "D:\\Josue TFS\\Technical Solution\\technicalsolutions\\TechnicalSolution\\BackEnd\\TechnicalSolution.DAL\\TechnicalSolution.DAL.csproj",
+        "packagesPath": "C:\\Users\\Josue Levi Aguilar\\.nuget\\packages\\",
+        "outputPath": "D:\\Josue TFS\\Technical Solution\\technicalsolutions\\TechnicalSolution\\BackEnd\\TechnicalSolution.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Josue Levi Aguilar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Josue TFS\\Technical Solution\\technicalsolutions\\TechnicalSolution\\BackEnd\\TechnicalSolution.EL\\TechnicalSolution.EL.csproj": {
+                "projectPath": "D:\\Josue TFS\\Technical Solution\\technicalsolutions\\TechnicalSolution\\BackEnd\\TechnicalSolution.EL\\TechnicalSolution.EL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Josue TFS\\Technical Solution\\technicalsolutions\\TechnicalSolution\\BackEnd\\TechnicalSolution.EL\\TechnicalSolution.EL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Josue TFS\\Technical Solution\\technicalsolutions\\TechnicalSolution\\BackEnd\\TechnicalSolution.EL\\TechnicalSolution.EL.csproj",
+        "projectName": "TechnicalSolution.EL",
+        "projectPath": "D:\\Josue TFS\\Technical Solution\\technicalsolutions\\TechnicalSolution\\BackEnd\\TechnicalSolution.EL\\TechnicalSolution.EL.csproj",
+        "packagesPath": "C:\\Users\\Josue Levi Aguilar\\.nuget\\packages\\",
+        "outputPath": "D:\\Josue TFS\\Technical Solution\\technicalsolutions\\TechnicalSolution\\BackEnd\\TechnicalSolution.EL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Josue Levi Aguilar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
             }
           },
           "imports": [

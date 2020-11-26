@@ -95,3 +95,17 @@ D:\Josue TFS\Technical Solution\technicalsolutions\TechnicalSolution\Test\Techni
 D:\Josue TFS\Technical Solution\technicalsolutions\TechnicalSolution\Test\TechnicalSolution.Test\obj\Debug\netcoreapp3.1\TechnicalSolution.Test.dll
 D:\Josue TFS\Technical Solution\technicalsolutions\TechnicalSolution\Test\TechnicalSolution.Test\obj\Debug\netcoreapp3.1\TechnicalSolution.Test.pdb
 D:\Josue TFS\Technical Solution\technicalsolutions\TechnicalSolution\Test\TechnicalSolution.Test\obj\Debug\netcoreapp3.1\TechnicalSolution.Test.genruntimeconfig.cache
+D:\Josue TFS\Technical Solution\technicalsolutions\TechnicalSolution\Test\TechnicalSolution.Test\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\Josue TFS\Technical Solution\technicalsolutions\TechnicalSolution\Test\TechnicalSolution.Test\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Josue TFS\Technical Solution\technicalsolutions\TechnicalSolution\Test\TechnicalSolution.Test\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.InMemory.dll
+D:\Josue TFS\Technical Solution\technicalsolutions\TechnicalSolution\Test\TechnicalSolution.Test\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Josue TFS\Technical Solution\technicalsolutions\TechnicalSolution\Test\TechnicalSolution.Test\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\Josue TFS\Technical Solution\technicalsolutions\TechnicalSolution\Test\TechnicalSolution.Test\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\Josue TFS\Technical Solution\technicalsolutions\TechnicalSolution\Test\TechnicalSolution.Test\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Josue TFS\Technical Solution\technicalsolutions\TechnicalSolution\Test\TechnicalSolution.Test\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\Josue TFS\Technical Solution\technicalsolutions\TechnicalSolution\Test\TechnicalSolution.Test\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Josue TFS\Technical Solution\technicalsolutions\TechnicalSolution\Test\TechnicalSolution.Test\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\Josue TFS\Technical Solution\technicalsolutions\TechnicalSolution\Test\TechnicalSolution.Test\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\Josue TFS\Technical Solution\technicalsolutions\TechnicalSolution\Test\TechnicalSolution.Test\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+D:\Josue TFS\Technical Solution\technicalsolutions\TechnicalSolution\Test\TechnicalSolution.Test\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+D:\Josue TFS\Technical Solution\technicalsolutions\TechnicalSolution\Test\TechnicalSolution.Test\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll

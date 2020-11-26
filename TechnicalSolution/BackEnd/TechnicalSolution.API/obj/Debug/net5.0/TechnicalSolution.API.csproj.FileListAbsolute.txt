@@ -35,3 +35,12 @@ D:\Josue TFS\Technical Solution\technicalsolutions\TechnicalSolution\BackEnd\Tec
 D:\Josue TFS\Technical Solution\technicalsolutions\TechnicalSolution\BackEnd\TechnicalSolution.API\obj\Debug\net5.0\ref\TechnicalSolution.API.dll
 D:\Josue TFS\Technical Solution\technicalsolutions\TechnicalSolution\BackEnd\TechnicalSolution.API\obj\Debug\net5.0\TechnicalSolution.API.pdb
 D:\Josue TFS\Technical Solution\technicalsolutions\TechnicalSolution\BackEnd\TechnicalSolution.API\obj\Debug\net5.0\TechnicalSolution.API.genruntimeconfig.cache
+D:\Josue TFS\Technical Solution\technicalsolutions\TechnicalSolution\BackEnd\TechnicalSolution.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\Josue TFS\Technical Solution\technicalsolutions\TechnicalSolution\BackEnd\TechnicalSolution.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Josue TFS\Technical Solution\technicalsolutions\TechnicalSolution\BackEnd\TechnicalSolution.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.InMemory.dll
+D:\Josue TFS\Technical Solution\technicalsolutions\TechnicalSolution\BackEnd\TechnicalSolution.API\bin\Debug\net5.0\TechnicalSolution.BL.dll
+D:\Josue TFS\Technical Solution\technicalsolutions\TechnicalSolution\BackEnd\TechnicalSolution.API\bin\Debug\net5.0\TechnicalSolution.DAL.dll
+D:\Josue TFS\Technical Solution\technicalsolutions\TechnicalSolution\BackEnd\TechnicalSolution.API\bin\Debug\net5.0\TechnicalSolution.EL.dll
+D:\Josue TFS\Technical Solution\technicalsolutions\TechnicalSolution\BackEnd\TechnicalSolution.API\bin\Debug\net5.0\TechnicalSolution.BL.pdb
+D:\Josue TFS\Technical Solution\technicalsolutions\TechnicalSolution\BackEnd\TechnicalSolution.API\bin\Debug\net5.0\TechnicalSolution.EL.pdb
+D:\Josue TFS\Technical Solution\technicalsolutions\TechnicalSolution\BackEnd\TechnicalSolution.API\bin\Debug\net5.0\TechnicalSolution.DAL.pdb
