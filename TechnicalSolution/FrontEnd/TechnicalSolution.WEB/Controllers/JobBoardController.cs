@@ -3,6 +3,7 @@ using System.Threading.Tasks;
 using TechnicalSolution.EL;
 using TechnicalSolution.EL.Configurations;
 using TechnicalSolution.WEB.Helpers;
+using TechnicalSolution.WEB.Models;
 
 namespace TechnicalSolution.WEB.Controllers
 {
@@ -14,13 +15,22 @@ namespace TechnicalSolution.WEB.Controllers
             _helper = new ApiService();
         }
 
+        /// <summary>
+        /// Show View with data
+        /// </summary>
+        /// <returns>View Action</returns>
         public async Task<IActionResult> Index()
         {
             var data = await _helper.GetListAsync<JobBoard>("JobBoard");
             return View(data.Data);
         }
 
-        public async Task<IActionResult> Formulario(int id = 0)
+        /// <summary>
+        /// Show view with information in case edit or empty if it is a new record
+        /// </summary>
+        /// <param name="id">record id</param>
+        /// <returns></returns>
+        public async Task<IActionResult> Form(int id = 0)
         {
             ViewData["Action"] = "Add";
             var model = new JobBoard();
@@ -33,10 +43,15 @@ namespace TechnicalSolution.WEB.Controllers
             return View(model);
         }
 
-        public async Task<IActionResult> EjecutarTransaccion(JobBoard model, TransactionType tipoTransaccion)
+        /// <summary>
+        /// Invoke api method 
+        /// </summary>
+        /// <param name="model">Model with information</param>
+        /// <param name="transactionType">DatatyTransactinon</param>
+        public async Task<IActionResult> ExecuteTransaction(JobBoard model, TransactionType transactionType)
         {
             var request = new BusinessValue<JobBoard>();
-            switch (tipoTransaccion)
+            switch (transactionType)
             {
                 case TransactionType.Add:
                     request = await _helper.PostAsync("JobBoard", model);
@@ -54,14 +69,13 @@ namespace TechnicalSolution.WEB.Controllers
                 return null;//Here we can show error view
         }
 
+        /// <summary>
+        /// Invoke ExecuteTransaction to Delete
+        /// </summary>
+        /// <param name="id">record id to remove</param>
         public async Task<IActionResult> Delete(int id)
         {
-            return await EjecutarTransaccion(new JobBoard { Id = id }, TransactionType.Delete);
+            return await ExecuteTransaction(new JobBoard { Id = id }, TransactionType.Delete);
         }
-    }
-
-    public enum TransactionType
-    {
-        Add, Edit, Delete, Get
     }
 }

@@ -7,48 +7,47 @@ namespace TechnicalSolution.WEB.Helpers
     public interface IApiService
     {
         /// <summary>
-        /// Obtiene una lista de elementos (verbo GET)
+        /// Get a list of elements (GET verb)
         /// </summary>
-        /// <typeparam name="TResult">Tipo de dato esperado en el resultado</typeparam>
-        /// <param name="url">Segmento de la url de la API a ejecutar</param>
-        /// <returns>Resultado de la ejecución de la acción</returns>
+        /// <typeparam name = "TResult"> Type of data expected in the result </typeparam>
+        /// <param name = "url"> Segment of the url of the API to execute </param>
+        /// <returns> Result of the action execution </returns>
         Task<BusinessValue<List<TResult>>> GetListAsync<TResult>(string url);
 
         /// <summary>
-        /// Obtiene un elemento (verbo GET)
+        /// Get an element (GET verb)
         /// </summary>
-        /// <typeparam name="TResult">Tipo de dato esperado en el resultado</typeparam>
-        /// <param name="url">Segmento de la url de la API a ejecutar</param>
-        /// <returns>Resultado de la ejecución de la acción</returns>
+        /// <typeparam name = "TResult"> Type of data expected in the result </typeparam>
+        /// <param name = "url"> Segment of the url of the API to execute </param>
+        /// <returns> Result of the action execution </returns>
         Task<BusinessValue<TResult>> GetSingleAsync<TResult>(string url);
 
         /// <summary>
-        /// Realiza la inserción de un elemento (verbo POST)
+        /// Performs the insertion of an element (POST verb)
         /// </summary>
-        /// <typeparam name="TResult">Tipo de dato esperado en el resultado</typeparam>
-        /// <typeparam name="TData">Tipo de dato del contenido de la acción</typeparam>
-        /// <param name="url">Segmento de la url de la API a ejecutar</param>
-        /// <param name="data">Datos a enviar en la acción</param>
-        /// <returns>Resultado de la ejecución de la acción</returns>
+        /// <typeparam name = "TResult"> Type of data expected in the result </typeparam>
+        /// <typeparam name = "TData"> Data type of the action content </typeparam>
+        /// <param name = "url"> Segment of the url of the API to execute </param>
+        /// <param name = "data"> Data to send in the action </param>
+        /// <returns> Result of the action execution </returns>
         Task<BusinessValue<TData>> PostAsync<TData>(string url, TData data);
 
-
         /// <summary>
-        /// Realiza la actualización completa de un elemento (verbo PUT)
+        /// Perform the complete update of an element (PUT verb)
         /// </summary>
-        /// <typeparam name="TResult">Tipo de dato esperado en el resultado</typeparam>
-        /// <typeparam name="TData">Tipo de dato del contenido de la acción</typeparam>
-        /// <param name="url">Segmento de la url de la API a ejecutar</param>
-        /// <param name="data">Datos a enviar en la acción</param>
-        /// <returns>Resultado de la ejecución de la acción</returns>
+        /// <typeparam name = "TResult"> Type of data expected in the result </typeparam>
+        /// <typeparam name = "TData"> Data type of the action content </typeparam>
+        /// <param name = "url"> Segment of the url of the API to execute </param>
+        /// <param name = "data"> Data to send in the action </param>
+        /// <returns> Result of the action execution </returns>
         Task<BusinessValue<TData>> PutAsync<TData>(string url, TData data);
 
         /// <summary>
-        /// Ejecuta la acción de eliminación (verbo DELETE)
+        /// Execute the delete action (DELETE verb)
         /// </summary>
-        /// <typeparam name="TResult">Tipo de dato esperado en el resultado</typeparam>
-        /// <param name="url">Segmento de la url de la API a ejecutar</param>
-        /// <returns>Resultado de la ejecución de la acción</returns>
+        /// <typeparam name = "TResult"> Type of data expected in the result </typeparam>
+        /// <param name = "url"> Segment of the url of the API to execute </param>
+        /// <returns> Result of the action execution </returns>
         Task<BusinessValue<TData>> DeleteAsync<TData>(string url);
     }
 }
