@@ -1,32 +1,37 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
+using TechnicalSolution.BL.Interfaces;
 using TechnicalSolution.EL;
 
 namespace TechnicalSolution.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class JobBoardController : ControllerBase
+    public class JobBoardController : APIControllerBase
     {
-        //private JobBoardBL _blJobBoard;
-        public JobBoardController()
+        private IJobBoardBL _blJobBoard;
+        public JobBoardController(IJobBoardBL bl)
         {
-
+            _blJobBoard = bl;
         }
-        //[HttpPost]
-        //public async Task<ActionResult<JobBoard>> Post(JobBoard model)
-        //{
-        
-        //}
+
+        /// <summary>
+        /// Add a new record by Business Layer
+        /// </summary>
+        /// <param name="model">Object with information to save</param>
+        /// <returns>Action Result with information</returns>
+        [HttpPost]
+        public async Task<ActionResult<JobBoard>> PostAsync(JobBoard model)
+        {
+            return Result(await _blJobBoard.AddAsync(model));
+        }
 
         //[HttpGet]
-        //public async Task<ActionResult<JobBoard>> Get()
+        //public async Task<ActionResult<JobBoard>> GetAsync()
         //{
-
+        //    return Result(await _blJobBoard.GetAsync());
         //}
+
+        
     }
 }

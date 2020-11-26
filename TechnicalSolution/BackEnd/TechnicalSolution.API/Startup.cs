@@ -6,6 +6,8 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.EntityFrameworkCore;
 using TechnicalSolution.DAL;
 using Microsoft.OpenApi.Models;
+using TechnicalSolution.BL.Extensions;
+using TechnicalSolution.DAL.Context;
 
 namespace TechnicalSolution.API
 {
@@ -30,6 +32,7 @@ namespace TechnicalSolution.API
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "TechnicalSolution.API", Version = "v1" });
             });
+            services.AddDIBL();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
