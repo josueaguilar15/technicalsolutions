@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
 using System.Threading.Tasks;
 using TechnicalSolution.EL;
 using TechnicalSolution.EL.Configurations;
@@ -10,9 +11,9 @@ namespace TechnicalSolution.WEB.Controllers
     public class JobBoardController : Controller
     {
         private IApiService _helper;
-        public JobBoardController()
+        public JobBoardController(IConfiguration config)
         {
-            _helper = new ApiService();
+            _helper = new ApiService(config);
         }
 
         /// <summary>

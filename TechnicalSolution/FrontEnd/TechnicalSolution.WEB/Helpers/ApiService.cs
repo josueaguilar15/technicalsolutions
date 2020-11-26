@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json;
+﻿using Microsoft.Extensions.Configuration;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,11 +17,14 @@ namespace TechnicalSolution.WEB.Helpers
     public class ApiService : IApiService
     {
         private readonly HttpClient _client;
-        private string urlApiBase = "https://localhost:44351/api/";
+        private string urlApiBase = "";
+        private readonly IConfiguration _config;
 
-        public ApiService()
+        public ApiService(IConfiguration config)
         {
+            _config = config;
             _client = new HttpClient();
+            urlApiBase = _config.GetValue<string>("UrlApi");
             _client.BaseAddress = new Uri(urlApiBase);
         }
         public bool IsError { get; private set; }
