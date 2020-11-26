@@ -10,7 +10,7 @@ namespace TechnicalSolution.DAL
         {
         }
 
-        public DbSet<JobBoard> TodoItems { get; set; }
+        public DbSet<JobBoard> JobBoard { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
