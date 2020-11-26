@@ -30,6 +30,15 @@ namespace TechnicalSolution.DAL.Repositories
         /// <returns> A list of entities. </returns>
         Task<IEnumerable<TEntity>> GetAsync(Expression<Func<TEntity, bool>> filter = null, Action<IQueryable<TEntity>> orderBy = null, Func<IQueryable<TEntity>, IIncludableQueryable<TEntity, object>> include = null, int? limit = null);
 
+
+        /// <summary>
+        /// Search asynchronously for an entity.
+        /// </summary>
+        /// <param name = "filter"> Expression or filter to search for the entity. </param>
+        /// <param name = "include"> Expression to include related entities. </param>
+        /// <returns> The entity found. </returns>
+        Task<TEntity> FindAsync(Expression<Func<TEntity, bool>> filter = null, Func<IQueryable<TEntity>, IIncludableQueryable<TEntity, object>> include = null);
+
         /// <summary>
         /// Add an Entity.
         /// </summary>

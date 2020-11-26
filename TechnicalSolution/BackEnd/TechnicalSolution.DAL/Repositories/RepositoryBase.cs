@@ -91,5 +91,14 @@ namespace TechnicalSolution.DAL.Repositories
             dbSet.UpdateRange(entityList);
         }
 
+        public async Task<TEntity> FindAsync(Expression<Func<TEntity, bool>> filter = null, Func<IQueryable<TEntity>, IIncludableQueryable<TEntity, object>> include = null)
+        {
+            IQueryable<TEntity> query = dbSet;
+            if (filter != null)
+                query = query.Where(filter).AsNoTracking();
+            if (include != null)
+                query = include(query);
+            return await query.SingleOrDefaultAsync();
+        }
     }
 }

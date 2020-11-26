@@ -1,4 +1,6 @@
-﻿using TechnicalSolution.DAL.Context;
+﻿using System.Collections.Generic;
+using System.Threading.Tasks;
+using TechnicalSolution.DAL.Context;
 using TechnicalSolution.DAL.Interfaces;
 using TechnicalSolution.DAL.Repositories;
 using TechnicalSolution.EL;
@@ -13,5 +15,16 @@ namespace TechnicalSolution.DAL.Implements
         public JobBoardDAL(DataContext context) : base(context)
         {
         }
+
+        public async Task<JobBoard> FindByIdAsync(int id)
+        {
+            return await base.FindAsync(x => x.Id == id);
+        }
+
+        public async Task<IEnumerable<JobBoard>> GetAsync()
+        {
+            return await base.GetAsync();
+        }
+
     }
 }
