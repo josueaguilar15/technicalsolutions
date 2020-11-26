@@ -8,8 +8,8 @@ namespace TechnicalSolution.EL.Configurations
 {
     public enum Status
     {
-        OK, // Indicates that the operation is correct
-        ERROR, // It is a general error caused by an exception
-        NOT_FOUND, // Indicates that a resource can't be found or doesn't exist
+        OK=200, // Indicates that the operation is correct
+        ERROR=500, // It is a general error caused by an exception
+        NOT_FOUND=404, // Indicates that a resource can't be found or doesn't exist
     }
 }

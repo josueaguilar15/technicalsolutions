@@ -1,0 +1,42 @@
+﻿@model List<TechnicalSolution.EL.JobBoard>
+
+<div class="card">
+    <div class="card-header">
+        <h5 style="text-align:center;">Job Board</h5>
+    </div>
+    <div class="card-body">
+        <table id="tabla" class="table table-bordered table-striped table-sm">
+            <thead>
+                <tr>
+                    <th scope="col">Job</th>
+                    <th scope="col">Job Title</th>
+                    <th scope="col">Description</th>
+                    <th scope="col">CreatedAt</th>
+                    <th scope="col">ExpireAt</th>
+                    <th scope="col" class="text-center">Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.Job</td>
+                        <td>@item.JobTitle</td>
+                        <td>@item.Description</td>
+                        <td>@item.CreatedAt.ToString("dd/MM/yyyy")</td>
+                        <td>@item.ExpiresAt.ToString("dd/MM/yyyy")</td>
+                        <td>
+                            <a asp-action="Formulario" class="btn btn-outline-primary" asp-route-id="@item.Id">Edit</a>
+                            <a asp-action="Delete" class="btn btn-outline-primary" asp-route-id="@item.Id">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    <a class="btn btn-outline-primary" asp-action="Formulario">New Record</a>
+</div>
+@section Scripts
+{
+    <partial name="_ValidationScriptsPartial" />
+}

@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using TechnicalSolution.BL.Interfaces;
 using TechnicalSolution.DAL.Core;
@@ -21,6 +22,7 @@ namespace TechnicalSolution.BL.Implements
 
         public async Task<BusinessValue<JobBoard>> AddAsync(JobBoard model)
         {
+            model.CreatedAt = DateTime.Now;
             await _unitOfWork.JobBoard.AddAsync(model);
             int affectedRows = await _unitOfWork.Complete();
             if (affectedRows == 0)
