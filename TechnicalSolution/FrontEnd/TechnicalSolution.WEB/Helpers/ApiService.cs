@@ -87,7 +87,7 @@ namespace TechnicalSolution.WEB.Helpers
         {
             if (url.StartsWith("/"))
             {
-                throw new ArgumentException("Los segmentos de la Url no deben iniciar con el caracter \"/\"", "url");
+                throw new ArgumentException("Url segments must not start with the character \"/\"", "url");
             }
             return ExecuteOperationAsync<BusinessValue<List<TResult>>>(client =>
             {
@@ -99,7 +99,7 @@ namespace TechnicalSolution.WEB.Helpers
         {
             if (url.StartsWith("/"))
             {
-                throw new ArgumentException("Los segmentos de la Url no deben iniciar con el caracter \"/\"", "url");
+                throw new ArgumentException("Url segments must not start with the character \"/\"", "url");
             }
             return ExecuteOperationAsync<BusinessValue<TResult>>(client =>
             {
@@ -111,7 +111,7 @@ namespace TechnicalSolution.WEB.Helpers
         {
             if (url.StartsWith("/"))
             {
-                throw new ArgumentException("Los segmentos de la Url no deben iniciar con el caracter \"/\"", "url");
+                throw new ArgumentException("Url segments must not start with the character \"/\"", "url");
             }
             return ExecuteOperationAsync<BusinessValue<TData>>(client =>
             {
@@ -123,7 +123,7 @@ namespace TechnicalSolution.WEB.Helpers
         {
             if (url.StartsWith("/"))
             {
-                throw new ArgumentException("Los segmentos de la Url no deben iniciar con el caracter \"/\"", "url");
+                throw new ArgumentException("Url segments must not start with the character \"/\"", "url");
             }
             return await ExecuteOperationAsync<BusinessValue<TData>>(client =>
             {
@@ -135,7 +135,7 @@ namespace TechnicalSolution.WEB.Helpers
         {
             if (url.StartsWith("/"))
             {
-                throw new ArgumentException("Los segmentos de la Url no deben iniciar con el caracter \"/\"", "url");
+                throw new ArgumentException("Url segments must not start with the character \"/\"", "url");
             }
             return await ExecuteOperationAsync<BusinessValue<TData>>(client =>
             {
